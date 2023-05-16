@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 15 mai 2023 à 01:52
+-- Généré le : mar. 16 mai 2023 à 02:15
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.2.0
 
@@ -42,14 +42,6 @@ CREATE TABLE `apprenant` (
 --
 
 INSERT INTO `apprenant` (`id_apprenant`, `firstname`, `lastname`, `email`, `password`, `img`, `role`) VALUES
-(2, 'Jane', 'Doe', 'jane.doe@example.com', 'password2', '', 'user'),
-(3, 'Bob', 'Smith', 'bob.smith@example.com', 'password3', '', 'user'),
-(4, 'Alice', 'Jones', 'alice.jones@example.com', 'password4', '', 'user'),
-(5, 'David', 'Lee', 'david.lee@example.com', 'password5', '', 'user'),
-(6, 'Emily', 'Davis', 'emily.davis@example.com', 'password6', '', 'user'),
-(7, 'Michael', 'Wilson', 'michael.wilson@example.com', 'password7', '', 'user'),
-(8, 'Sarah', 'Taylor', 'sarah.taylor@example.com', 'password8', '', 'user'),
-(9, 'James', 'Brown', 'james.brown@example.com', 'password9', '', 'user'),
 (10, 'Jessica', 'Garcia', 'jessica.garcia@example.com', 'password10', '', 'user'),
 (11, 'William', 'Jackson', 'william.jackson@example.com', 'password11', '', 'user'),
 (12, 'Linda', 'Martinez', 'linda.martinez@example.com', 'password12', '', 'user'),
@@ -145,7 +137,19 @@ INSERT INTO `apprenant` (`id_apprenant`, `firstname`, `lastname`, `email`, `pass
 (211, 'benomar', 'mohammed yassin', 'moyassin.benomar@gmail.com', '3f7792d88529a4b243d93899032b9abc', '', 'user'),
 (212, 'yassine', 'moundelssi', 'mod@gmail.com', '7907d9193f292dc5e1256659ec9c9ca2', 'images (9).jpeg', 'user'),
 (213, 'yassine', 'moundelssi', 'md@gmail.com', '7d0865adf1f08c54a3030565974825e4', '', 'user'),
-(214, 'mouad', 'jebbari', 'mdelssie@gmail.com', '4c54ad0c9cc6b8496318450f40bf5766', '', 'user');
+(214, 'mouad', 'jebbari', 'mdelssie@gmail.com', '4c54ad0c9cc6b8496318450f40bf5766', '', 'user'),
+(215, 'yassine', 'moundelssi', 'm@gmail.com', 'e4ba34574a801931a8fc2913a12bf6f0', 'images (9).jpeg', 'user'),
+(216, 'yassine', 'moundelssi', 'molssie@gmail.com', 'beb3d4a078abfc7e80f030e5ce0a0ab1', 'images (9).jpeg', 'user'),
+(217, 'Ysn!!', 'moundelssi', 'moundelssi.yassin@gmail.com', '564842b72ab4b03ed06f8413d7126455', 'images (8).jpeg', 'user'),
+(218, 'YSN!!', 'moundelssi', 'moundelssi.yae.solicode@gmail.com', '3338ddafcc1bcab6a479cb9bd0a0796f', 'images (9).jpeg', 'user'),
+(219, 'yassine', 'moundelssi', 'moundelssi.yassine.socode@gmail.com', 'f9b5fc51481e31b71c068308c74d2dda', 'images (9).jpeg', 'user'),
+(220, 'yassine', 'moundelssi', 'formate@gmail.com', '0547cf3e13c2763455cb992bb32db366', 'images (9).jpeg', 'user'),
+(221, 'yassine', 'moundelssi', 'mounassine.solicode@gmail.com', '94ecbcfa8b019e829fdc004640b05b79', 'images (9).jpeg', 'user'),
+(222, 'hgjhgjhj', 'ghjhgjghj', 'moundelsse.solicode@gmail.com', 'moundelsse.solicode@gmail.com', 'uploads/Picsart_23-04-05_00-39-23-356.jpg', 'user'),
+(223, 'jebarri', 'mouad', 'moundelsse.solicode@gmail.com', 'moundelsse.solicode@gmail.com', 'uploads/34af996ddff444391edab94abcf3c7f3.webp', 'user'),
+(231, 'sara', 'fran', 'sara@gmail.com', 'sara@gmail.com', 'uploads/images (9).jpeg', 'formateur'),
+(237, 'zoro', 'zoro', 'zoro@gmail.com', 'zoro@gmail.com', 'uploads/', 'formateur'),
+(238, 'yassine', 'moundelssi', 'solicode@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'images (9).jpeg', 'user');
 
 -- --------------------------------------------------------
 
@@ -230,11 +234,7 @@ CREATE TABLE `formateur` (
 --
 
 INSERT INTO `formateur` (`id_formateur`, `firstname`, `lastname`, `email`, `password`, `role`) VALUES
-(1, 'mr', 'bilal', 'bilal1234@formateur.com', '1234', 'formateur'),
-(2, 'med', 'allali', 'med123solicode@formateur.com', '098765', 'formateur'),
-(6, 'Karen', 'Davis', 'karenavis@example.com', 'password6', 'formateur'),
-(7, 'David', 'Garcia', 'davidgarcia@example.com', 'password7', 'formateur'),
-(8, 'Laura', 'Martinez', 'lauramartinez@example.com', 'password8', 'formateur'),
+(8, 'Laura!!', 'Martinez', 'lauramartinez@example.com', 'password8', 'formateur'),
 (9, 'Kevin', 'Lopez', 'kevinlopez@example.com', 'password9', 'formateur'),
 (10, 'Emily', 'Lee', 'emilylee@example.com', 'password10', 'formateur'),
 (11, 'Michael', 'Rodriguez', 'michaelrodriguez@example.com', 'password11', 'formateur'),
@@ -258,7 +258,10 @@ INSERT INTO `formateur` (`id_formateur`, `firstname`, `lastname`, `email`, `pass
 (29, 'Jacob', 'Walker', 'jacobwalker@example.com', 'password29', 'formateur'),
 (30, 'Taylor', 'Young', 'tayloryoung@example.com', 'password30', 'formateur'),
 (222, 'mon', 'yassine', 'formateur@gmail.com', '74feb4e23a9061886ecb6b03168e173c', 'formateur'),
-(223, 'mon', 'yassine', 'formateur@gmail.com', '74feb4e23a9061886ecb6b03168e173c', 'formateur');
+(224, 'rayan', 'franx', 'rayan@gmail.com', 'rayan@gmail.com', 'admin'),
+(225, 'yassine', 'moundelssi', '.solicode@gmail.com', '.solicode@gmail.com', 'user'),
+(226, 'zoro', 'king', 'king@gmail.com', '74feb4e23a9061886ecb6b03168e173c', 'formateur'),
+(227, 'prof', 'prof', 'prof@gmail.com', 'd28046ef192975b79c910a2c3efb4f96', 'formateur');
 
 -- --------------------------------------------------------
 
@@ -287,7 +290,8 @@ INSERT INTO `formation` (`id_formation`, `sujet`, `categorie`, `masse_horaire`, 
 (6, 'SQL', 'Developement', '19', 'Some quick example text to build on the card title and make up the bulk of the cards content', 'https://appmaster.io/api/_files/yKhnAuhLKWr9i83vVB3um7/download/'),
 (7, 'PHP', 'Developement', '9', 'Some quick example text to build on the card title and make up the bulk of the cards content', 'https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/phpframework.png'),
 (8, 'Python', 'Programming', '15', 'This course teaches students how to use Python, a popular programming language for data analysis, machine learning, and web development.', 'https://www.python.org/static/community_logos/python-logo-master-v3-TM.png'),
-(10, 'JavaScript', 'Programming', '20', 'This course teaches students how to use JavaScript, a popular programming language for web development, to create dynamic and interactive websites and web applications.', 'https://cdn.hackr.io/uploads/posts/large/1654234535LI9mLOk6yE.png');
+(10, 'JavaScript', 'Programming', '20', 'This course teaches students how to use JavaScript, a popular programming language for web development, to create dynamic and interactive websites and web applications.', 'https://cdn.hackr.io/uploads/posts/large/1654234535LI9mLOk6yE.png'),
+(33, 'software engineer', 'Developement', '70', 'Software engineering is the branch of computer science that deals with the design, development,', 'files/profiles/64628faede07f.jpeg');
 
 -- --------------------------------------------------------
 
@@ -308,17 +312,8 @@ CREATE TABLE `inscription` (
 --
 
 INSERT INTO `inscription` (`id_apprenant`, `id_session`, `resultat`, `date_validation`, `date_inscription`) VALUES
-(5, 1, 'valid', NULL, NULL),
-(6, 1, 'invalid', NULL, NULL),
-(7, 1, 'null', NULL, NULL),
-(8, 1, 'null', NULL, NULL),
-(9, 1, 'null', NULL, NULL),
-(11, 1, 'null', NULL, NULL),
-(12, 1, 'null', NULL, NULL),
-(13, 1, 'null', NULL, NULL),
-(21, 2, 'null', NULL, '2023-05-15 00:40:44'),
-(21, 10, 'null', NULL, '2023-05-14 16:50:20'),
-(214, 1, 'null', NULL, '2023-05-13 07:04:13');
+(21, 68, 'null', NULL, '2023-05-16 00:34:49'),
+(21, 72, 'null', NULL, '2023-05-16 00:35:07');
 
 --
 -- Déclencheurs `inscription`
@@ -359,15 +354,17 @@ CREATE TABLE `session` (
 --
 
 INSERT INTO `session` (`id_session`, `date_debut`, `date_fin`, `nombre_places_max`, `etat`, `id_formation`, `id_formateur`) VALUES
-(1, '2023-05-09', '2023-09-30', 10, 'clôturée', 4, 222),
-(2, '2023-05-30', '2023-07-30', 10, 'in process of registration', 2, 1),
-(3, '2024-05-13', '2024-06-14', 6, 'in process of registration', 1, 1),
-(4, '2023-05-02', '2028-12-03', 10, 'en cours', 7, 222),
-(5, '2022-01-02', '2022-01-03', 10, 'Annulée', 6, 2),
-(6, '2024-01-09', '2024-02-03', 10, 'in process of registration', 5, 1),
-(8, '2023-09-15', '2023-10-01', 20, 'in process of registration', 8, 10),
-(9, '2023-10-01', '2023-11-01', 25, 'in process of registration', 10, 9),
-(10, '2023-01-15', '2023-03-15', 15, 'in process of registration', 7, 222);
+(68, '2023-06-01', '2023-07-30', 10, 'in process of registration', 1, 222),
+(69, '2023-08-01', '2023-09-30', 9, 'in process of registration', 2, 222),
+(70, '2023-10-01', '2023-12-22', 15, 'in process of registration', 4, 224),
+(71, '2024-01-03', '2024-02-16', 35, 'in process of registration', 5, 30),
+(72, '2024-01-16', '2024-02-16', 11, 'in process of registration', 6, 29),
+(73, '2024-03-16', '2024-05-16', 13, 'in process of registration', 7, 26),
+(74, '2024-10-16', '2024-11-16', 12, 'in process of registration', 8, 8),
+(75, '2024-11-16', '2024-12-15', 16, 'in process of registration', 10, 27),
+(76, '2025-01-16', '2025-09-16', 23, 'in process of registration', 33, 225),
+(79, '2023-11-16', '2023-12-26', 44, 'in process of registration', 2, 18),
+(80, '2024-06-20', '2024-12-13', 11, 'in process of registration', 6, 28);
 
 --
 -- Index pour les tables déchargées
@@ -420,7 +417,7 @@ ALTER TABLE `session`
 -- AUTO_INCREMENT pour la table `apprenant`
 --
 ALTER TABLE `apprenant`
-  MODIFY `id_apprenant` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=215;
+  MODIFY `id_apprenant` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=239;
 
 --
 -- AUTO_INCREMENT pour la table `awards`
@@ -432,19 +429,19 @@ ALTER TABLE `awards`
 -- AUTO_INCREMENT pour la table `formateur`
 --
 ALTER TABLE `formateur`
-  MODIFY `id_formateur` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=224;
+  MODIFY `id_formateur` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=228;
 
 --
 -- AUTO_INCREMENT pour la table `formation`
 --
 ALTER TABLE `formation`
-  MODIFY `id_formation` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id_formation` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT pour la table `session`
 --
 ALTER TABLE `session`
-  MODIFY `id_session` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id_session` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- Contraintes pour les tables déchargées
@@ -485,6 +482,19 @@ AND etat = 'en cours'$$
 
 DELIMITER ;
 COMMIT;
+
+CREATE TRIGGER `prévenir_surcapacité` AFTER INSERT ON `inscription`
+ FOR EACH ROW BEGIN
+DECLARE max_capacity INT;
+DECLARE num_registered INT;
+
+SELECT nombre_places_max INTO max_capacity FROM session WHERE id_session = NEW.id_session;
+SELECT COUNT(*) INTO num_registered FROM inscription WHERE id_session = NEW.id_session;
+
+IF num_registered = max_capacity THEN
+UPDATE session SET etat = 'Inscription achevée' WHERE id_session = NEW.id_session;
+END IF;
+END
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
