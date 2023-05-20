@@ -70,7 +70,7 @@
     
     <?php include 'includ/cdn_css.php' ?>
 
-    <title>home</title>
+    <title>Home</title>
     <link rel ="icon"  href = "https://www.creativefabrica.com/wp-content/uploads/2020/11/02/Abstract-Logo-Design-Vector-Logo-Graphics-6436279-1-312x208.jpg"  type = "image/x-icon">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
